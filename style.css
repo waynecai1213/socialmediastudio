@@ -1,11 +1,263 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+body{
+    
+    background-color: white;
+    max-width: 80%;
+    height: 100%; 
+    margin: auto;
+    font-family: Livvic,sans-serif;
+    color: black;
+    
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+h3{
+    margin-top: 40px;
+}
+
+p{
+    letter-spacing: 2;
+    line-height:20px;
+
+}
+
+#MS1-17 p{
+    font-size:18px;
+    letter-spacing: 2;
+    line-height:30px;
+}
+
+#MS1-8 p{
+    font-size:18px;
+    letter-spacing: 2;
+    line-height:30px;
+}
+
+#MS1-16 p{
+    font-size:18px;
+    letter-spacing: 3;
+    line-height:30px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    line-height:24px;
+}
+
+.divider1{
+    margin-top: 40px;
+}
+
+.top-bar{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    font-size: 24px;
+}
+
+.logo{
+    font-weight: 700;
+    margin: 0px auto;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
+
+
+.slogan-1{
+    position: fixed;
+    bottom: 500px;
+    left: -40px;
+    width: 360px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: rgb(255, 255, 255);
+    transform: rotate(90deg);
+}
+.slogan-1 span{
+    background-color: black
+}
+.slogan-2{
+    position: fixed;
+    bottom: 360px;
+    left: -40px;
+    width: 500px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    
+    transform: rotate(90deg);
+}
+
+
+.menu{
+   
+   text-align: right;
+   width: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.menu-item{
+    margin-right:30px; 
+}
+
+
+.menu-current a{
+
+    color: white;
+    background-color: black; 
+   
+}
+
+.content{
+    margin:20px auto;
+    width: 80%;
+}
+
+.container{
+    display: inline-block;
+    text-align:center;
+    margin:20px auto;
+    width: 100%;
+   
+   
+}
+
+/* .img-center{
+    width: 80%;
+    margin:10px auto;
+} */
+
+
+.blog{
+    background: black;
+    color: white;
+    position: relative;
+    float: left;
+    text-align:center;
+    width:30%;
+    height:300px;
+    margin: 20px 10px 40px 10px;
+}
+
+.blog:hover .blog-img{
+    opacity:1;
+}
+.blog:hover .blog-info{
+    opacity:0;
+}
+
+.blog-img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: 100%;
+    opacity:0.4;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-overlay {
+    position: absolute;
+    /* background: black;
+    color: white; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* opacity: 0.2; */
+  }
+  
+.blog-info {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      text-align: center;
+     top: 100px;
+     transition: all 0.4s ease-in-out;
+     opacity: 1;
+    }
+
+.ccblog{
+    background: black;
+    color: white; 
+ }
+
+.ccblog:hover .blog-info{
+    opacity:1;
+}
+
+
+.post-ms{
+    width: 100%;
+}
+
+
+.div4center{
+    width: 100%;
+    text-align: center;
+}
+
+.post-cc{
+    width: 80%;
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.date{
+    color: #ccc;
+    
+}
+
+.brief{
+    width: 100%;
+}
+
+/* 
+.img-post{
+ width: 40%;
+ display:block;
+ margin: 20px auto 20px auto;
+
+} */
+
+.label{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.label span{
+    background-color: black;
+    color:white;
+    
+
+}
+
+@media (max-width:767px){
+    body{
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width:1142px){
+    body{
+        width: 60%;
+    }
+
 }
