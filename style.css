@@ -152,8 +152,10 @@ li{
 .blog:hover .blog-img{
     opacity:1;
 }
+
+/*change hover style here */
 .blog:hover .blog-info{
-    opacity:0;
+    opacity:1;
 }
 
 .blog-img{
